@@ -1,4 +1,4 @@
-package com.itcj.FlinkSql;
+package com.itcj.FlinkSql.util;
 
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;

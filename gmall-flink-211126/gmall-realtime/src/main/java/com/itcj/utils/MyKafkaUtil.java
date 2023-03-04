@@ -16,7 +16,7 @@ import java.util.Properties;
 
 public class MyKafkaUtil {
 
-    private static final String KAFKA_SERVER = "hadoop102:9092";
+    private static final String KAFKA_SERVER = "node0:9092";
 
     public static FlinkKafkaConsumer<String> getFlinkKafkaConsumer(String topic, String groupId) {
 
